@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <link rel="icon" href="images/browser-css.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: lightblue;
+            border: 0;
+            padding: 0;
+        }
+        h1 {
+            color: navy;
+            text-align: center;
+        }
+        p {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+        header {
+            background-color: lightgray;
+            padding: 10px;
+            text-align: center;
+            border: 0;
+            margin: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 10px 60px;
+            margin: 0;
+            display: inline-flex;
+            gap: 45px;
+            font-size: larger;
+        }
+        .header {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+        .header-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            padding: 10px 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button {
+            padding: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-main">
+        <div class="logo header">
+            <img width="50" height="50" src="images/browser-css.png" alt="Logo">
+        </div>
+        <div class="header nav">
+        <ul>
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">About</a></li>
+            <li><a href="#section3">Contact</a></li>
+        </ul>
+        </div>
+        <div class="header button">
+            <button>Login</button>
+        </div>
+    </header>
+    <h1>Internal CSS Example</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam qui molestiae quam minus beatae totam, repudiandae eius unde perferendis a, ratione doloremque perspiciatis facilis! Voluptates neque architecto doloribus corrupti maxime.</p>
+    
+</body>
+</html>
